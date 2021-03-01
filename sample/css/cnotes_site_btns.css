@@ -1,0 +1,857 @@
+ul.cnotesin_nav { 
+    background:url("images/global/board_imgs2.png") no-repeat;
+    background-position: 0px 0px; 
+    width:286px !important;
+    list-style:none; 
+    margin: 0;
+    padding: 0;
+    text-indent: 0; 
+    height:33px !important;
+    color:black;
+    float: left;  
+    margin: 0;  
+    position: relative; /*--Declare X and Y axis base for sub navigation--*/      
+} 
+ul.cnotesin_nav:hover {
+   background-position:0px -33px;       
+}
+ul.cnotesin_nav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.cnotesin_nav li ul.subnav {
+    list-style: none;
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+    left: 0; top: 29px;
+    background: #333;
+    margin: 0; padding: 0;
+    display: none;
+    float: left;
+    width: 284px;
+    border: 1px solid #111;
+}
+ul.cnotesin_nav li ul.subnav li{
+    margin: 0; padding: 0;
+    border-top: 1px solid #252525; /*--Create bevel effect--*/
+    border-bottom: 1px solid #444; /*--Create bevel effect--*/
+    clear: both;
+    width: 284px;
+}
+
+.cnotesin_logo{
+  width:152px;
+  height:43px;    
+  background-image:url('images/global/board_imgs2.png');
+  background-position:0px -66px ;       
+  position:absolute;
+  top:-2px;
+  left:0px;
+}
+.cnotesin_nav .userbox{
+  min-width:85px;
+  height:20px;       
+  position:absolute;
+  top:6px;
+  left:160px;
+  background-color:#E8E888;
+  border-top:1px solid #093E6F;
+  border-left:1px solid #093E6F; 
+  border-right:1px solid #106DC4;
+  border-bottom:1px solid #106DC4; 
+}
+
+.followers_lbl{
+    margin-left:10px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+}
+.followers_list {
+    
+}
+.followers_list div{
+    margin-left:5px;
+    color:#CCC;
+    float:left;
+}
+.followers_list a{
+   color:#8C8EFC;
+   cursor:pointer; 
+}
+.followers_list a:hover{
+   color:#CCCCFF; 
+}
+
+.btn_follow {
+    border:1px solid #85624F;
+    background-color:#956E59;
+    padding:0px 6px;
+    height:24px;
+    background-repeat: repeat-x;
+    color:#EFEBE6 !important;
+    font-size:12px;
+    font-weight:bold;
+    line-height: 24px;
+   vertical-align: text-middle;
+   text-align: center;
+   cursor:pointer;
+   display: -moz-inline-stack;
+   display: inline-block;
+   float:left;
+
+}
+.btn_h24 {
+    border:1px solid #B9B9B9;
+    padding:0px 6px;
+    height:24px;
+    background-image: url('images/global/btn_grad2.png');
+    background-repeat: repeat-x;
+    color:#666 !important;
+    line-height: 24px;
+   vertical-align: text-middle;
+   text-align: center;
+   cursor:pointer;
+   display: -moz-inline-stack;
+   display: inline-block;
+   float:left;
+}
+.btn_h24:hover{
+    
+}
+.btn_h24:active{
+        background-image: none !important; 
+    background-color:#DDEEC2;         
+}
+   
+.btn_h20 {
+    border:1px solid #999999;
+    padding:0px 6px;
+    height:20px;
+    background-image: url('images/global/btn_gray_grad.png');
+    background-repeat: repeat-x;
+    color:#666 !important;
+    line-height: 20px;
+   vertical-align: text-middle;
+   text-align: center;
+   cursor:pointer;
+      display: -moz-inline-stack;
+   display: inline-block;
+   float:left;
+}
+
+.btn_h20 p{
+    margin-left:2px;
+}
+.btn_img img {
+    float:left;
+    margin-right:2px;
+    margin-top:2px;
+}
+.bh_active {
+    background-image: none !important;   
+  background-color:#B5B6BA !important; 
+  color:black !important;
+  cursor:default;     
+}
+.bh_active_green {
+    background-image: none !important;   
+  background-color:#DDEEC2 !important; 
+  cursor:default;     
+}
+.btn_h20:active {
+
+    background-image: none;  
+    background-color:#DDEEC2;
+}
+
+.tag_ctn {
+     float:left;
+     margin-right:5px;
+ }
+.float_r {
+     float:right !important;
+ }
+.mr_5px {
+    margin-right: 5px;
+}
+.ml_5px{
+     margin-left: 5px;
+}
+.no_right_brd {
+    border-right:none;
+}
+.no_left_brd {
+    border-left:none;
+}
+.no_bottom_brd {
+    border-bottom:none;
+}
+.no_top_brd {
+    border-top:none;
+}
+
+.r_3px_left {
+-webkit-border-top-left-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;    
+}
+.r_3px_right {
+-webkit-border-top-right-radius: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-moz-border-radius-topright: 3px;
+-moz-border-radius-bottomright: 3px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;    
+}
+.r_5px_left {
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;    
+}
+.r_5px_right {
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;    
+}
+.r_5px_topleft {
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px; 
+}
+.r_5px_bottomleft {
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5px; 
+}
+.r_5px_bottomright {
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+border-bottom-right-radius: 5px;    
+}
+.r_5px_topright {
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;    
+}
+
+.searchBox{
+background-image:url('http://png-5.findicons.com/files/icons/1687/free_web_design/16/search.png');
+background-repeat:no-repeat;
+background-position: 2px 2px;
+padding:2px;
+padding-left:20px;
+border:1px solid #CCC;
+}
+  
+#dropmenu {
+    position:absolute;
+    width:220px;
+    min-height:50px;
+    max-height:300px;
+    overflow-y:auto;
+    border:1px solid #CCC;
+    border-bottom: 2px solid #B0B0B0;
+    padding:2px;
+    background-color:white;
+    z-index:999;
+    text-align: left; 
+    color:black; 
+      
+}
+
+#dropmenu a:link,#dropmenu a:visited,#dropmenu a:active,#dropmenu a:hover{
+    text-decoration:none;
+    color:black;
+           
+}
+
+.qtip .qtip-content{
+   padding: 10px;
+   overflow: hidden;
+}
+.qtip .qtip-content .qtip-title,
+.qtip-cream .qtip-content .qtip-title{
+  background-color: #F0DE7D;
+}
+.qtip-light .qtip-content .qtip-title{
+  background-color: #f1f1f1;
+}
+.qtip-dark .qtip-content .qtip-title{
+  background-color: #404040;
+}
+.qtip-red .qtip-content .qtip-title{
+  background-color: #F28279;
+}
+.qtip-green .qtip-content .qtip-title{
+  background-color: #B9DB8C;
+}
+
+   
+#loading_spinner{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-8px;
+    margin-top:-8px;
+    width:16px;
+    height:16px;
+    visibility: hidden;
+    background-image:url('http://tagitha.com/images/global/loading_spinner.gif');
+
+}
+
+.c_note_default{
+    background-color:#e0cd73;
+    min-width:400px;
+    min-height:250px;
+    border:1px solid #666;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left:-200px;
+    position:absolute;
+    left:50%;
+    top:-225px;
+    -moz-box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);        
+
+    
+}
+.c_temp_note_float{
+    background-color:#e0cd73;
+    border:1px solid #666;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5); 
+        visibility:hidden;
+}
+.c_temp_note_full{
+    background-color:#e0cd73;
+    border:1px solid #666;
+    visibility:hidden;
+}
+
+.title_div{
+    border-bottom:1px solid #CCC;
+}
+
+.temp_note{
+    background-color:#e0cd73; 
+    width:100%;
+    height:100%;   
+}
+.temp_note  .tag_bar{
+    overflow:hidden;height:21px;background-color:white;border-bottom:1px solid #CCC;border-top:1px solid #CCC;
+}
+.temp_note .title_input{
+    border:none;
+    outline:none;
+    background-color:white;
+    font-weight:bold;
+    width:100%;
+}
+.temp_note .editnote_tab{
+    padding:2px;
+    cursor:pointer; 
+    height:20px;
+    line-height:20px;
+    vertical-align: middle;   
+    margin-left:5px;
+    float:left;
+}
+.temp_note .editnote_tab span{
+    padding:3px 6px;
+    display:none;
+    position:absolute;
+    bottom:25px;
+    z-index:1000000;
+
+    background-color:#F0F0F0;
+    border: 2px solid #AAAAAA;
+    border-bottom:none;
+    
+    -webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px; 
+
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;   
+}
+.temp_note .editnote_tab:hover span{
+    display:block;
+}
+.temp_note .editnote_tab input{
+    float:left;
+}
+.temp_note .editnote_tab img{
+    float:left;
+}
+.temp_note .editnote_tab:hover{
+    background-color:#EADD9E;  
+}
+
+
+.mceEditor{
+    height:100px;
+}
+.note_userheader{
+    height:20px;
+    padding:2px;
+    border-bottom:thin dotted #C3AA2B;    
+    position:relative;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-right-radius: 3px;    
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    border-top-left-radius: 3px; 
+}
+.c_note{
+    background-color:#e0cd73;
+    width:400px;
+    height:250px;
+    border:1px solid #666;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left:-200px;
+    position:absolute;
+    left:50%;
+    top:-225px;  
+}
+.c_note_ctn .note_by{
+    float:left;
+    padding:2px 4px;
+    cursor:pointer;
+}  
+.c_note_ctn .note_by:hover{
+    background-color:#EADD9E;
+    
+}
+.c_note_ctn .follow_me_tab {
+    margin-left:3px;
+    float:left;
+    display:block;
+    background-color:#E2E5E9;
+    padding:1px 4px;
+    font-size:9.5px;
+    cursor:pointer;
+    border:1px solid #808080;
+    
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.c_note_ctn .c_note_header_link:hover{
+float:left;
+}
+.c_note_ctn .c_note_header_link:hover{
+  background-color:#DDEEC2;
+  cursor:pointer;
+}
+.c_note_tools{
+    position:absolute;
+    width:130px;
+    left:50%;
+    margin-left:25px;
+    top:5px;
+}
+.follow_me_tab:hover {
+color:blue;  
+}
+
+.note_footer{
+    margin-top:2px;
+    position:relative;
+    height:26px;
+    overflow:hidden;
+}
+.note_footer .notes_right {
+    position:absolute;
+    right:5px;
+    top:0px;
+    color:#988522;    
+}
+.notes_right .ctn{
+    float:left;
+    margin-left:5px;
+}
+.note_tagbox{
+    margin-top:2px;
+     background-color:#D8C14E;
+     padding:2px;
+     float:right;
+     margin-right:5px;
+     color:black;
+     font-size:10px;
+     cursor:pointer;
+}
+
+.td_txt {
+    border-spacing: 0px 0px;  
+        margin:0px;
+    padding:0px; 
+}
+.td_txt .txt_edit_ctn{
+    height:100%;
+    min-height:100%;
+}
+.td_txt textarea {
+    margin:0px;
+    padding:0px;
+    border-spacing: 0px 0px; 
+}
+
+.note_footer_responses {
+border-top:thin dotted #C3AA2B; 
+background-color:#E0CD73;
+width:100%;
+position:absolute;
+height:20px;
+padding:2px;
+bottom:0px;
+left:0px;
+-webkit-border-bottom-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;    
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-bottom-left-radius: 3px;    
+}  
+.note_footer_responses:hover {
+    
+}
+.note_footer_responses:hover .footer_tools{
+    display:block;
+}
+.note_footer_responses .note_footer{
+    position:relative;   
+}
+.note_footer_responses .footer_tools {
+    display:block;
+    position:absolute;
+    left:2px;
+    top:1px;
+    z-index:1;            
+}
+
+.footer_tools .tool_btn {
+  width:20px;
+  height:18px;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  float:left; 
+}
+.footer_tools .tool_btn:hover {
+cursor:pointer;
+background-color:#EADD9E;      
+}
+.footer_tools .edit {   
+  background-image: url('images/icons/13_edit.png');    
+}
+.footer_tools .link {
+  background-image: url('images/icons/13_link.png');        
+}
+
+.uid_pic_ctn{
+  float:left;
+  margin-right:3px; 
+  position:relative; 
+  width:28px;
+  height:28px;
+  border: 1px solid #B49D28;
+}
+.uid_pic_ctn:hover{
+    border-color:#A6D25E;
+}
+.uid_pic_ctn .num_notes {
+   background-color: #DDEEC2;
+
+   position:absolute;
+   bottom:0px;
+   font-family:arial;
+   height:8px;
+   text-align:right;
+   font-size:8px;
+   padding-right:2px;
+   font-weight:bold;
+   width:26px;
+   background-repeat: no-repeat;
+   background-position: -2px;
+   background-image: url('http://cdn.iconfinder.net/data/icons/fugue/icon_shadowless/sticky_note_small.png'); 
+}
+
+.c_note_body {
+    text-align:left;
+    padding:10px 10px;
+    margin-left:5px;
+    margin-right:12px;
+    line-height:2em;
+}
+.c_note_body .star_ctn{
+     width:125px;
+     height:24px;
+ }
+ .c_note_body .star_ctn .full_star{  
+  width:24px;
+  height:24px;
+  float:left;
+  background-image:url(http://cdn2.iconfinder.com/data/icons/icojoy/noshadow/standart/png/24x24/001_15.png);
+ }
+ .c_note_body .star_ctn .empty_star{  
+   width:24px;
+  height:24px;
+  float:left;
+  background-image:url(http://cdn2.iconfinder.com/data/icons/icojoy/noshadow/standart/png/24x24/001_17.png);
+ }
+
+.c_note_body_scroll {
+    width:100%;
+    padding-right:8px;
+}
+.gall_notebtn{
+    z-index:2;position:absolute;top:0px;right:0px;border-right:none;border-top:none;    
+}
+
+.c_note_ctn{
+   display:block;
+   float:left;
+   left:50%;
+   margin-left:-400px;
+   margin-top:20px;   
+}
+.c_note_rel{
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+.c_note_pin_pinned {
+    background-position: -108px 0px;
+    background-image: url('http://tagitha.com/images/global/note_pins.png'); 
+    width:54px;
+    margin-left:-22px;
+    height:70px;
+    position: absolute;
+    left:50%;
+    top:-35px;
+    z-index:10;
+}
+.c_note_pin_unpinned {
+    background-position: -54px 0px;
+    background-image: url('http://tagitha.com/images/global/note_pins.png'); 
+    top:-40px;  
+}
+.c_note_pin{
+    width:54px;
+    height:70px;
+    position: absolute;
+    z-index:10;    
+}
+.pin1 {
+    background-position: -108px 0px;
+    background-image: url('http://collectboard.com/images/global/note_pins.png'); 
+    margin-left:-22px;
+    left:50%;
+    top:-35px;
+}
+
+.pin2 {
+    background-position: -162px 0px;
+    background-image: url('http://collectboard.com/images/global/note_pins.png'); 
+
+}
+.pin3 {
+    background-position: -216px 0px;
+    background-image: url('http://collectboard.com/images/global/note_pins.png'); 
+}
+.pin4 {
+    background-position: -270px 0px;
+    background-image: url('http://collectboard.com/images/global/note_pins.png'); 
+}
+
+.c_note_pin_unpined {
+    background-position: -54px 0px;
+    background-image: url('http://tagitha.com/images/global/note_pins.png'); 
+    top:-40px;  
+}
+.c_note1{
+    margin-top:10px;
+    background-color:#e0cd73;
+    border:1px solid #666;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.5);
+    overflow:hidden; 
+    position:relative;
+}
+.c_note_dragging{
+    -moz-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);  
+}
+
+.c_note_faded {
+opacity:0.45;
+filter:alpha(opacity=45);
+-moz-opacity:0.45;
+-khtml-opacity: 0.45;
+z-index:0;
+}
+.temp_note_txt {
+width:100%;  
+     height:100%;
+     margin:0px;
+     margin-left:10px;
+     padding: 0;
+     padding-top:10px;
+     
+     line-height:1.5em;
+     resize:none;
+     outline:none; 
+     border:1px solid #CCC;
+     border:none;
+
+     display:block;
+
+ }
+
+.board_tab {
+    height:100%;
+    padding:0px 10px;
+    float:left;
+    color:#444;
+    cursor:pointer;  
+}
+.board_tab .btab_users_icon  { 
+    display:none; 
+}
+.board_tab_sel .btab_users_icon  { 
+    display:inline;
+}
+
+.board_tab .btn_h20 { 
+    color:#666;
+    display:none; 
+}
+.board_tab_sel .btn_h20 { 
+    color:#666;
+    display:block;
+}
+.board_tab_sel p { 
+    color:white;
+}
+.board_tab .scope_title { 
+    display:none; 
+}
+.board_tab_sel .scope_title { 
+    display:inline;
+}
+.board_tab label { 
+    cursor:pointer;
+}
+
+.board_tab span {
+    color:black;
+}
+.board_tab_sel span {   
+    color:white;
+}
+
+.board_tab p {
+    display:inline;
+    color:black;
+}
+.board_tab_sel p {   
+    display:inline;
+}
+.board_tab:hover {
+    background-color: #CFCAC4;  
+    cursor:pointer;
+}
+.board_tab_sel {
+margin-top:1px;
+border-top:1px solid #CCC;
+border-bottom:1px solid #666;
+color:#ccc;  
+height:28px;
+position:relative;
+background-color:#818181;
+padding:0px 10px;
+float:left;
+}
+
+.board_pin{
+  width:14px;
+  height:12px;    
+  background-image:url('images/global/black_pin_mini.png');     
+  float:left;
+  margin-left:3px;
+  margin-right:3px;  
+  margin-top:9px;
+}
+
+.newboard_btn{
+  width:14px;
+  height:14px;    
+  background-image:url('http://collectboard.com/images/global/board_imgs.png');
+  background-position:-200px -48px ;       
+  cursor:pointer;
+  float:left;
+  margin-left:5px;
+  margin-top:8px;
+}
+.newboard_btn:hover{    
+   background-position:-214px -48px ; 
+}
+.newboard_btn:active{    
+   background-position:-228px -48px ; 
+}
+
+.board_tab_divider{
+    float:left;
+    margin-top:1px;
+    height:30px;
+    width:1px;
+    background-color:#CCC;
+    border-left:1px solid #666;
+}
+
+/*
+ * jQuery UI Accordion 1.8.7
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Accordion#theming
+ */
+/* IE/Win - Fix animation bug - #4615 */
+.ui-accordion { width: 100%; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 0px; zoom: 1;outline:none !important;  }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+.ui-accordion-icons .ui-accordion-header a { padding-left: 1.5em;text-decoration: none;color:white; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { border-top: 0; margin-top: -2px; position: relative; top: 2px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+
+.bg_white {
+    background-color:White;
+}
+
